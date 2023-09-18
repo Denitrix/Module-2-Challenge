@@ -42,7 +42,7 @@ section {
 }
 
 .content {
-    margin: 50px 100px 0 30px;
+    margin: 50px 100px 0px 30px;
     padding-left: 10px;
     border-left: solid var(--text);
     justify-content: left;
@@ -61,14 +61,16 @@ h2 {
 }
 
 #contactMe ul {
+    align-items: center;
     padding: 15px;
     float: right;
     font-size: 28px;
 }
 
 #contactMe li {
+    align-items: center;
     display: inline-block;
-    margin: 10px;
+    margin: 10px 10px 0 10px;
 }
 
 
