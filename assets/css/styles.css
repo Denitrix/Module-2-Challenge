@@ -1,0 +1,36 @@
+:root {
+    --text: #fff;
+    --header-background: rgb(134, 134, 134);
+    --secondary-text: rgb(14, 87, 105);
+    --border-radius: 50px;
+  }
+
+header {
+    padding: 10px 0px;
+    background-color: var(--header-background);
+    color: var(--text);
+}
+
+header h1 {
+    display: inline-block;
+    padding: 10px;
+    padding-left: 5%;
+    background-color: var(--secondary-text) ;
+    color: var(--header-background);
+    font-size: 48px;
+}
+
+header ul {
+    padding: 15px;
+    float: right;
+    font-size: 28px;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+header a {
+    color: var(--secondary-text);
+}
