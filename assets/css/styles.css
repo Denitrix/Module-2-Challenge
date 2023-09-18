@@ -1,7 +1,7 @@
 :root {
-    --text: #fff;
-    --header-background: rgb(134, 134, 134);
-    --secondary-text: rgb(14, 87, 105);
+    --text: rgb(36, 57, 77);
+    --header-background: rgb(61, 61, 61);
+    --secondary-text: rgb(133, 202, 187);
     --border-radius: 50px;
   }
 
@@ -17,7 +17,7 @@ header h1 {
     padding-left: 5%;
     background-color: var(--secondary-text) ;
     color: var(--header-background);
-    font-size: 48px;
+    font-size: 56px;
 }
 
 header ul {
@@ -28,9 +28,50 @@ header ul {
 
 header li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 10px;
 }
 
 header a {
     color: var(--secondary-text);
+}
+
+section {
+    color: var(--text);
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    margin: 50px 100px 0 30px;
+    padding-left: 10px;
+    border-left: solid var(--text);
+    justify-content: left;
+}
+
+h2 {
+    font-size: 48px;
+    margin: 50px 0;
+    margin-left: 80px;
+    padding-top: 15px;
+    justify-content: right;
+}
+
+#aboutMe p {
+    font-size: 20px;
+}
+
+#contactMe ul {
+    padding: 15px;
+    float: right;
+    font-size: 28px;
+}
+
+#contactMe li {
+    display: inline-block;
+    margin: 10px;
+}
+
+
+#contactMe a {
+    color: var(--text);
 }
