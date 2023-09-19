@@ -2,18 +2,17 @@
     --text: rgb(36, 57, 77);
     --header-background: rgb(61, 61, 61);
     --secondary-text: rgb(133, 202, 187);
-    --border-radius: 50px;
   }
 
 header {
-    padding: 10px 0px;
+    padding: 1% 0px;
     background-color: var(--header-background);
     color: var(--text);
 }
 
 header h1 {
     display: inline-block;
-    padding: 10px;
+    padding: 1%;
     padding-left: 5%;
     background-color: var(--secondary-text) ;
     color: var(--header-background);
@@ -21,14 +20,14 @@ header h1 {
 }
 
 header ul {
-    padding: 15px;
+    padding: 1.5%;
     float: right;
     font-size: 28px;
 }
 
 header li {
     display: inline-block;
-    margin-left: 10px;
+    margin: 10px;
 }
 
 header a {
@@ -42,7 +41,7 @@ section {
 }
 
 .content {
-    margin: 50px 100px 0px 30px;
+    margin: 2% 10% 0px 1%;
     padding-left: 10px;
     border-left: solid var(--text);
     justify-content: left;
@@ -50,10 +49,10 @@ section {
 
 h2 {
     font-size: 48px;
-    margin: 50px 0;
+    margin: 2% 0 0 0;
     margin-left: 80px;
     padding-top: 15px;
-    justify-content: right;
+    text-align: right;
 }
 
 #aboutMe p {
@@ -69,7 +68,8 @@ h2 {
 
 #contactMe li {
     align-items: center;
-    display: inline-block;
+    display: inline-flex;
+    flex-direction: row;
     margin: 10px 10px 0 10px;
 }
 
