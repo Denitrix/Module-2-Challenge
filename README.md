@@ -5,7 +5,7 @@
 A portfolio site with information about me, links to my previous work, and my contact information.
 
 ## Site
-https://denitrix.github.io/Module-2-Challenge/
+ https://denitrix.github.io/My-Portfolio/
 ![Screenshot of Website](assets/images/screenshot2.png)
 
 ## License
